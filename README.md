@@ -43,9 +43,9 @@ Vamos colocar alguns conceitos de html e css em prática.
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/ligafemininadetiUVV/desafio-html/pulls) e confira que o seu _Pull Request_ está criado
 
-7 . ** Ao terminar de desenvolver marcar na task lá no clickup que terminou de desenvolver **
+7. **Ao terminar de desenvolver marcar na task lá no clickup que terminou de desenvolver**
 
-8 . Todas poderão fazer code review do código das outras, porém Micaeli e Juliana irão fazer de todas e caso seja necessário irão solicitar melhorias do código.  
+8. Todas poderão fazer code review do código das outras, porém Micaeli e Juliana irão fazer de todas e caso seja necessário irão solicitar melhorias do código.  
 -----
 
 ### 📝 AO DESENVOLVER:
@@ -64,17 +64,17 @@ Vamos colocar alguns conceitos de html e css em prática.
 
 ### 📅 PRAZO DE ENTREGA:
 
- - ** Data de inicio: ** 24/07/2024
- - ** Data de final: ** 31/07/2024
- - ** Tempo total de desenvolvimento: ** 1 semana
- - ** Task de desenvolvimento: ** https://app.clickup.com/t/86a48ygnp
+ - **Data de inicio:**  24/07/2024
+ - **Data de final:**  31/07/2024
+ - **Tempo total de desenvolvimento:**  1 semana
+ - **Task de desenvolvimento:**  https://app.clickup.com/t/86a48ygnp
 -----
 
 ### ✅ REQUISITO DO DESAFIO:
 
 Você deve criar um site que com uma série de informações a respeito do que você sabe de desenvolvimento web.
 
-#### 💡Veja o exemplo de como pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara.
+#### Veja o exemplo de como pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara.
 
 ![exemplo](./exemplo.png)
 
