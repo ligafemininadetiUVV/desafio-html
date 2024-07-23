@@ -34,14 +34,14 @@ Vamos colocar alguns conceitos de html e css em prática.
   * Usando o exemplo anterior: `git push -u origin carla-pereira`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/ligafemininadetiUVV/desafio-html/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  * No menu à direita, clique no link "Assignees" e escolha o seu usuário;
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/ligafemininadetiUVV/desafio-html/pulls) e confira que o seu _Pull Request_ está criado
+   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/ligafemininadetiUVV/desafio-html/pulls)
+   * Clique no botão verde _"New pull request"_
+   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+   * Clique no botão verde _"Create pull request"_
+   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
+   * No menu à direita, clique no link "Assignees" e escolha o seu usuário;
+   * **Não se preocupe em preencher mais nada por enquanto!**
+   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/ligafemininadetiUVV/desafio-html/pulls) e confira que o seu _Pull Request_ está criado
 
 7. **Ao terminar de desenvolver marcar na task lá no clickup que terminou de desenvolver**
 
