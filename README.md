@@ -88,7 +88,7 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 #### 2 - Altere a cor de fundo da barra superior
 
-#### 3 - A página deve possuir uma foto sua
+#### 3 - A página deve possuir uma foto 
 
 #### 4 - A página deve possuir uma lista numerada
 
