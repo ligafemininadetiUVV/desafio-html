@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #000000;
+    --header: #BA2C73;
+    --bodytext: #F7B267;
+    --titulo: #F7B267;
+    --destaque: #dd71a7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--bodytext);
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid var(--header);
+}
+
+/* HEADER */
+header {
+    background-color: var(--header);
+    height: 150px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80vw;
+    min-width: 900px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.header_content img {
+    height: 80px;
+}
+
+.header_content .left {
+    display: flex;
+    align-items: center;
+}
+
+.header_content h1 {
+    padding-left: 20px;
+    color: var(--titulo);
+}
+
+.header_content li{
+    display: inline-block;
+}
+
+.header_content li a {
+    padding: 0px 3vw;
+    color: var(--titulo);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*  MAIN */
+main {
+    width: 70vw;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 30px 0 ;
+}
+
+/* SECTION SOBRE MIM */
+#sobre-mim img {
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 125px;
+    margin-bottom: 50px;
+    border: 5px solid var(--header);
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sobre-mim p {
+    padding-bottom: 8px;
+}
+
+#sobre-mim h2, #sobre-mim h3 {
+    padding: 10px 0 15px 0;
+}
+
+#sobre-mim ol {
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+#sobre-mim ul {
+    padding-left: 12px;
+}
+
+
+/* SECTION HABILIDADES*/
+
+/*TABELA*/
+table .titulo {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th[scope = "col"] {
+    background-color: var(--bodytext);
+    color: var(--header);
+    border-right: 2px solid var(--background);
+}
+
+th[scope = "col"]:last-child {
+    border: 1px solid var(--bodytext);
+}
+
+th, td {
+    border: 1px solid var(--bodytext);
+    padding: 10px;
+    width: 22vw;
+    height: 60px;
+    text-align: center;
+}
+
+td a {
+    color: var(--bodytext);
+    text-align: center;
+}
+
+.disc {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.full {
+    background-color: var(--bodytext);
+}
+
+.empty {
+    border: 2px solid var(--bodytext);
+}
+
+/* SECTION FEEDBACK */
+
+#feedback label {
+    padding-left: 35px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+textarea {
+    display: flex;
+    margin: 30px auto;
+    width: 65vw;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #333333;
+    color: var(--bodytext);
+    border: 1px solid var(--bodytext);
+    padding: 15px;
+}
+
+textarea::placeholder {
+    color: var(--bodytext)
+}
+
+textarea:focus {
+    border: 3px solid var(--bodytext);
+    outline: none;
+}
+
+button {
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    background-color: var(--bodytext);
+    display: block;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.swipe {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.swipe a {
+    text-decoration: none;
+    color: var(--bodytext);
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--header);
+    height: 80px; 
+    padding-top: 20px;
+   
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}

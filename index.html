@@ -1,24 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pessoal Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="title">Thaissa Leslye</h1>
+    <header id="header">
+      <div class="header_content">
+        <div class="left">
+          <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Computador iuriCode">
+          <h1 class="title">Thaissa Leslye</h1>
+        </div>
         <nav class="menu">
-            <a href="#sobre-mim">Sobre</a> <!-- Listas + link portfolio aqui -->
-            <a href="#habilidades">Habilidades</a> <!-- Tabela aqui -->
-            <a href="#section4">Feedback</a> <!-- Textarea + numero aqui -->
-            <a href="#footer">Contato</a> <!-- Footer aqui -->
+          <ul>
+            <li><a href="#sobre-mim">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
     <main>
-        <section id="sobre-mim"></section>
-        <section id="habilidades"></section>
+        <section id="sobre-mim">
+          <img src="eu.jpg" alt="foto-de-perfil">
+          <div class="sobre-mim">
+            <div class="content">
+              <h2>Sobre mim:</h2>
+              <p>Meu nome é Thaissa Leslye Lourenço, nasci em 1999 na cidade de Santo André - SP e atualmente resido em Vitória/ES, estou estudando  <strong>Ciência da Computação (3° período)</strong> na Universidade de Vila Velha. Além disso, sou formada em <strong>Segurança da Informação</strong> pela Universidade Norte do Paraná.</p>
+  
+              <p>Sou estagiária na Secretaria de Desenvolvimento do ES, atuando como suporte técnico. Lá eu faço atendimento aos usuários do setor, e lido com montagem de equipamentos. Também sou membro da Liga Feminina de TI da UVV, lá compartilhamos nossos conhecimentos e participamos de atividades que nos henriquecem academica e profissionalmente.</p>
+            </div>
+            <div class="listas">
+              <h3>Linguagens: (ordem de experiência)</h3>
+              <ol>
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+              </ol>
+            </div>
+              
+            <h3>Ferramentas:</h3>
+            <ul>
+                <li>Git</li>
+                <li>Workbench</li>
+                <li>VS Code</li>
+            </ul>
+              
+            </div>
+          </div>
+        </section>
+        <hr>  
+        <section id="habilidades">
+            <table>
+                <caption class="titulo">
+                  Minhas Habilidades
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Assunto</th>
+                    <th scope="col">Nível</th>
+                    <th scope="col">Certificado (link)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Python</th>
+                    <td>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc empty"></div>
+                    </div>
+                    </td>
+                    <td><a href="https://github.com/ThaissaLourenco/Portfolio/tree/main/Certificados/Introdu%C3%A7%C3%A3o%20a%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20com%20Python%20%20-%20USP" target="_blank">Python USP - Coursera</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Suporte em TI</th>
+                    <td>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc empty"></div>
+                      <div class="disc empty"></div>
+                    </div>
+                    </td>
+                    <td><a href="https://github.com/ThaissaLourenco/Portfolio/tree/main/Certificados/Especializa%C3%A7%C3%A3o%20-%20Suporte%20em%20TI%20do%20Google" target="_blank">Suporte em TI Google - Coursera</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Inglês</th>
+                    <td>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc empty"></div>
+                      <div class="disc empty"></div>
+                    </div>
+                    </td>
+                    <td><a href="https://github.com/ThaissaLourenco/Portfolio/blob/main/Certificados/Ingl%C3%AAs%20B2/EF%20SET%20Certificate.pdf" target="_blank">Englis B2 - EF SET</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">LGPD</th>
+                    <td>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc empty"></div>
+                      <div class="disc empty"></div>
+                    </div>
+                    </td>
+                    <td><a href="https://github.com/ThaissaLourenco/Portfolio/blob/main/Certificados/Seguran%C3%A7a%20em%20Tecnologia%20da%20Informa%C3%A7%C3%A3o%20-%20Funda%C3%A7%C3%A3o%20Bradesco.pdf" target="_blank">LGPD - Fund. Bradesco</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Redes</th>
+                    <td>
+                      <div class="disc full"></div>
+                      <div class="disc full"></div>
+                      <div class="disc empty"></div>
+                      <div class="disc empty"></div>
+                      <div class="disc empty"></div>
+                    </div>
+                    </td>
+                    <td><a href="https://github.com/ThaissaLourenco/Portfolio/blob/main/Certificados/NETESSENTIALS%20WR.pdf" target="_blank">Networking Essentials - Cisco</a></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th scope="row">Repositório GitHub</th>
+                    <td colspan="2"><a href="https://github.com/ThaissaLourenco/Portfolio/tree/main/Certificados" target="_blank">Acesse aqui todos os meus certificados</a> 😊</td>
+                  </tr>
+                </tfoot>
+              </table>
+        </section>
+        <hr>
+        <section id="feedback">
+          <label for="feedback">Envie uma mensagem
+            <textarea name="feedback" id="feedback" placeholder="Me de seu feedback ;)"></textarea>
+          </label>
+          <button type="submit" value="Submit">ENVIAR</button>
+        </section>
     </main>
-    <footer></footer>
+    <div class="swipe">
+      <a href="#header">↑ Voltar ao Início  ↑</a>
+    </div>
+    <footer>
+      <span>© 2024</span>
+      <span>Email: thaissa.leslyel.tl@gmail.com</span>
+    </footer>
 </body>
+
 </html>
