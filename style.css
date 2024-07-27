@@ -181,15 +181,15 @@ textarea {
     color: var(--bodytext);
     border: 1px solid var(--bodytext);
     padding: 15px;
+    outline: none;
 }
 
-textarea::placeholder {
+textarea::placeholder, input::placeholder {
     color: var(--bodytext)
 }
 
-textarea:focus {
+textarea:focus, input:focus {
     border: 3px solid var(--bodytext);
-    outline: none;
 }
 
 button {
@@ -201,6 +201,20 @@ button {
     border-radius: 15px;
     border: none;
     font-size: 15px;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    margin: 30px auto;
+    width: 65vw;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #333333;
+    color: var(--bodytext);
+    border: 1px solid var(--bodytext);
+    padding: 15px;
+    outline: none;
 }
 
 .swipe {
