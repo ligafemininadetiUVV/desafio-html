@@ -64,24 +64,62 @@ ul {
 
 div form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 35vw;
 
 }
 
 label {
     height: 25px;
-    text-align: left;
     font-weight: bold;
     text-align: center;
     justify-content: center;
 
 }
 
-input {
-    height: 25px;
+
+input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+input[type="number"] {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+   
+    
+}
+
+
+.button {
+    background-color: #6ED9AD;
+    color: #1b3329;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    margin: 15px auto;
+    font-weight: bold;
 
 }
+
+.button:hover {
+    background-color: #5eb993;
+}
+
+
 
 table {
     width: 60vw;
@@ -95,7 +133,7 @@ tr {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
-   
+
 }
 
 .social {
@@ -118,12 +156,12 @@ tr {
     margin: 10px;
     transition: all 0.5s ease;
     text-decoration: none;
-    
+
 
 }
 
 .social a:hover {
-    
+
     box-shadow: 0 0 10px #888;
 }
 
