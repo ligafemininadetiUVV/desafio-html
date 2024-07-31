@@ -67,6 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    line-height: 30px;
 }
 
 input {
@@ -86,6 +87,7 @@ input {
     color: var(--cor-secundaria);
     height: 40px;
     width: 150px;
+    font-size: 18px;
 }
 
 .botao:hover {
@@ -110,6 +112,7 @@ table {
   display: block;
   overflow-x: auto;
   border-spacing: 0;
+  
 }
 
 
@@ -118,6 +121,7 @@ td {
   padding: 5px 30px;
   border-top-width: 0;
   border-left-width: 0;
+  
 }
 
 th {
@@ -126,6 +130,7 @@ th {
   background: var(--cor-secundaria);
   vertical-align: bottom;
   padding: 5px 20px;
+  color: var(--cor-tema2);
 }
 
 
