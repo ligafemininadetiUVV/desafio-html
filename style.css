@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(7, 1, 3);
+}
+
+.gradiente {
+    background: linear-gradient(to right, #ee0b0b42, #3966fa41, #3b02693a);
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Playwrite AR', sans-serif;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 248, 248); 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: center; 
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    background-color: #08000023;  
+    border: 1px solid rgba(252, 252, 252, 0.986);
+    width: 99%;    
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: block;  
+}
+
+.listas {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    margin: 20px 0;
+    color: white;
+}
+
+.gif img {
+    position: fixed; 
+    bottom: 0; 
+    left: 90%; 
+    transform: translateX(-50%); 
+    animation: andar 9s infinite;
+    width: 100px; 
+    height: auto; 
+}
