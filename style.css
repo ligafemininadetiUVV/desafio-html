@@ -1,0 +1,80 @@
+
+.nunito-sans-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+div, p {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+    padding-left: 40;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+
+body{
+    background-color: #bdeadb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ddeadd;
+    text-align: center;
+       
+}
+
+.imagem{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 15px;
+
+}
+
+.imagem img{
+    border-radius: 50%;
+    max-width: 15%;
+    height: auto;
+   
+}
+
+.redesocial a{
+    color: #222;
+
+}
+
+input{
+    width: 300;
+    padding-left: 40;
+}
+
+button{
+    width: 200;
+    padding-left: 40;
+       
+}
+
+.tabela {
+    margin: 40;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 40;
+    border: 1px solid #222;
+  }
+
+
+
+
+  
